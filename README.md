@@ -31,6 +31,7 @@ Two reasons:
 - Cheapest ESP you can find ESP32-C3: https://www.aliexpress.com/item/1005006406538478.html
 - Voltage sensor module: https://www.aliexpress.com/item/1005006385487339.html
 - 3S BMS module: https://www.aliexpress.com/item/1005003986215534.html
+- 3.3V step down module: https://www.aliexpress.com/item/1005007136976280.html
 
 ## Source locally
 - 32mm PVS pipe, about 200mm needed
@@ -47,6 +48,8 @@ Use attached wiring schematic
 ![Wiring schematic of mole repellent](https://github.com/dansity/vibration_mole_repellent/blob/main/img/ksnip_20240619-144350.png)
 
 Use Pin 0 for the voltage sensor and Pin 3 for the mosfet gate pin
+
+Use a 3.3V step down module, don't trust the linear voltage regulators on cheap microcontrollers! They don't last long.
 
 I rolled everything in kapton tape so they dont short and shoved it into the box.
 Use irresponsible amount of hot glue to make everything stick together (optional)
