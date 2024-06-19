@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module fritzingVersion="0.5.2b.02.18.4756" referenceFile="Adafruit LED Sequin.fzp" moduleId="pwm-v1_3446300e83b5c7bbb3ed97cb9dff417b_13">
+ <version>4</version>
+ <date>Sat Jul 24 2021</date>
+ <author>Jeremiah Roddden</author>
+ <description>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">Dual Mosfet PWM Module&lt;/span>&lt;/p>&lt;/body>&lt;/html></description>
+ <title>Dual MOSFETs PWM Module</title>
+ <tags/>
+ <properties>
+  <property name="family">pwm</property>
+  <property name="variant">version1</property>
+ </properties>
+ <views>
+  <breadboardView>
+   <layers image="breadboard/pwm-v1_3446300e83b5c7bbb3ed97cb9dff417b_14_breadboard.svg">
+    <layer layerId="breadboard"/>
+   </layers>
+  </breadboardView>
+  <schematicView>
+   <layers image="schematic/pwm-v1_3446300e83b5c7bbb3ed97cb9dff417b_14_schematic.svg">
+    <layer layerId="schematic"/>
+   </layers>
+  </schematicView>
+  <pcbView>
+   <layers image="pcb/pwm-v1_3446300e83b5c7bbb3ed97cb9dff417b_14_pcb.svg">
+    <layer layerId="copper1"/>
+    <layer layerId="silkscreen"/>
+    <layer layerId="copper0"/>
+   </layers>
+  </pcbView>
+  <iconView>
+   <layers image="icon/pwm-v1_3446300e83b5c7bbb3ed97cb9dff417b_14_icon.svg">
+    <layer layerId="icon"/>
+   </layers>
+  </iconView>
+ </views>
+ <connectors>
+  <connector type="female" name="+VLOAD" id="connector5">
+   <description>+V Load</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector5pin" terminalId="connector5terminal"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector5pin" terminalId="connector5terminal"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector5pad"/>
+     <p layer="copper1" svgId="connector5pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="female" name="-VLOAD" id="connector7">
+   <description>-V Load</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector7pin" terminalId="connector7terminal"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector7pin" terminalId="connector7terminal"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector7pad"/>
+     <p layer="copper1" svgId="connector7pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="female" name="GND" id="connector8">
+   <description>MCU Ground</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector8pin" terminalId="connector8terminal"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector8pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector8pin"/>
+     <p layer="copper1" svgId="connector8pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="female" name="TRIG/PWM" id="connector9">
+   <description>PWM Signal from MCU</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector9pin" terminalId="connector9terminal"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector9pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector9pin"/>
+     <p layer="copper1" svgId="connector9pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="female" name="-VIN" id="connector10">
+   <description>-V Input for Load</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector10pin" terminalId="connector10terminal"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector10pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector10pin"/>
+     <p layer="copper1" svgId="connector10pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="female" name="+VIN" id="connector11">
+   <description>+V Input for Load</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector11pin" terminalId="connector11terminal"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector11pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector11pin"/>
+     <p layer="copper1" svgId="connector11pin"/>
+    </pcbView>
+   </views>
+  </connector>
+ </connectors>
+ <buses/>
+ <url>https://www.amazon.com/dp/B089YV23Y9</url>
+</module>
