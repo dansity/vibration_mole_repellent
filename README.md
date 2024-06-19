@@ -34,7 +34,7 @@ Two reasons:
 - 3.3V step down module: https://www.aliexpress.com/item/1005007136976280.html
 
 ## Source locally
-- 32mm PVS pipe, about 200mm needed
+- 32mm PVC pipe, about 200mm length needed
 - 0.14mm wires, black, red and one more color
 - 75x75mm waterproof electronics box from electronics supply store
 
