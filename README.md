@@ -6,12 +6,14 @@ Gardens with big dogs in them rarely have moles. The dogs create vibrations in t
 This device aims to mimic this effect.
 
 ## So why build your own?
-Two reasons:
+Three reasons:
 - You can tweak the vibration pattern so it will be like a dog running. As far as I know commercial ones don't have this feature or if they have its just a lame sequence.
 - You can put very strong motors in it to affect bigger area - if you want.
 - Infinetely repairable
 
 > This device is going to be more expensive than a store bought mole repellent! It is only going to be somewhat economically viable if you can source 18650 batteries and make yourself a 3s battery pack.
+
+![Image of finished product](https://github.com/dansity/vibration_mole_repellent/blob/main/img/IMG_20240617_173346206.jpg)
 
 ## Tools you need for the project
 - Soldering iron
@@ -41,7 +43,8 @@ Two reasons:
 ## Software
 1. In Arduinio IDE v2 download Espressif ESP32 boards library (the one by Espressif not the Arduino)
 2. Check and tweak settings if needed in the beginning of the code
-3. Flash firmware
+3. Set USB CDC On BOOT - Disabled (else deep sleep pin state will not preserved). You can lower CPU clock if you want for extra power saving.
+4. Flash firmware
 
 ## Hardware
 Use attached wiring schematic
